@@ -1,0 +1,87 @@
+@media (min-width : 600px) {
+
+    * {
+        box-sizing: border-box;
+        font-family: serif;
+        margin: 0;
+    }
+
+    body {
+        background-color: #c9c9c9;
+    }
+
+    h1 {
+        margin: 50px 0px 20px 0px;
+    }
+
+
+    #sidebar {
+        border: 1px solid #474747;
+        background: linear-gradient(to bottom right, #e0eeee, #f5e8df);
+        border-radius: 10px;
+        margin: 3px 3px 3px 6px;
+        padding: 20px 0px;
+        height: calc(100% - 6px);
+        width: calc(20% - 9px);
+        position: fixed;
+        float: left;
+    }
+
+    #main-content {
+        border: 1px solid #474747;
+        background-color: #e0eeee;
+        padding: 50px 80px 30px 80px;
+        border-radius: 10px;
+        margin: 3px 6px 3px 0px;
+        text-align: justify;
+        height: calc(100% - 6px);
+        width: calc(80% - 9px);
+        float: right;
+    }
+
+
+    #sidebar-content-ul {
+        padding: 10px 25%;
+        list-style: disc;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    /* #sidebar-content-ul li{
+        text-align: left;
+        width: 70%;
+    } */
+
+    #writer-img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #474747;
+        border-radius: 50%;
+    }
+
+    #writer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #MIT-img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        box-shadow: 7px 7px 15px gray;
+    }
+
+    #footer {
+        margin: 10px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
